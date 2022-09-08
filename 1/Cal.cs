@@ -9,11 +9,11 @@
 
     for (i = 0; i <money.Length; i++)
             {
+
               count = amount / money[i];
+              amount %= money[i];
               ans[i] = Math.Floor(count);
               Console.WriteLine(money[i]+" :"+ans[i]);
-              amount %= money[i];
-
 
             }
              return  ans;   

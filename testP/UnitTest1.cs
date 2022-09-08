@@ -13,8 +13,10 @@ public class UnitTest1
     [Fact]
     public static void test2()
     {
-        double[] casl = cal.monney(1665.75);
+
         double[] ans = { 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1 };
+        double[] casl = new double[11]; 
+        casl = cal.monney(1665.75);
         Assert.Equal(casl, ans);
     }
 }

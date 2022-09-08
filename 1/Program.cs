@@ -13,14 +13,13 @@ public class Program {
 
  public static void Main(string[] args) {
 
-     string n1 = input.n1();
-     double number = input.number();
-     string oname  = input.oname();
-     double nValue = input.nValue();
-     Store storeinfo = Register(n1, number, oname, nValue);
-     output.Info(storeinfo);
-     Console.WriteLine("Press 1 to enter to Calculator Change Program ");
-     double amount = double.Parse(Console.ReadLine()); 
+    string n1 = input.n1();
+    double number = input.number();
+    string oname  = input.oname();
+    double nValue = input.nValue();
+    Store storeinfo = Register(n1, number, oname, nValue);
+    output.Info(storeinfo);
+    double amount;
     while (true) {
            Console.WriteLine("Please input money: ");
 
@@ -36,4 +35,5 @@ public class Program {
  }
  
 }
+
 

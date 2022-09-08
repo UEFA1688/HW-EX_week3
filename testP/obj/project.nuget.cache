@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MKvpvHrkxBjDhH4kk1qlxaZw9o4fi44cKkgUftru3jCSvaU1sXleqt5Q2g9/bfJeWDHQJq9VgzPqRf6xSp94DA==",
+  "dgSpecHash": "SJ7P83mshQ70qne3QHc2oJAQangj3h2JkgvnCc80sBI+0MKm3sq3D52j4Fpy/g+3q3GCzAO9GYtvuYcXwgoz4Q==",
   "success": true,
-  "projectFilePath": "/home/uefa168/Desktop/HW-EX_week3/homework/testP/testP.csproj",
+  "projectFilePath": "/home/uefa168/Desktop/Final/HW-EX_week3/testP/testP.csproj",
   "expectedPackageFiles": [
     "/home/uefa168/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/home/uefa168/.nuget/packages/microsoft.codecoverage/17.1.0/microsoft.codecoverage.17.1.0.nupkg.sha512",
